@@ -1,0 +1,7 @@
+ultralytics>=8.3
+streamlit>=1.40
+opencv-python-headless>=4.9
+pandas
+matplotlib
+pyyaml
+pillow

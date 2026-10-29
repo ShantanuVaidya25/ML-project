@@ -1,0 +1,16 @@
+# datasets (download separately, see README)
+dataset/
+dataset_clean/
+*.zip
+*.cache
+
+# training artefacts not needed in the repo
+runs/*/weights/last.pt
+runs/detect/
+*.pt
+!runs/*/weights/best.pt
+!baseline/*/weights/best.pt
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/

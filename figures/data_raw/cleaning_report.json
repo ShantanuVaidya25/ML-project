@@ -1,0 +1,98 @@
+{
+  "splits": {
+    "train": {
+      "images": 2605,
+      "instances": 36893,
+      "percent": 93.0
+    },
+    "val": {
+      "images": 114,
+      "instances": 697,
+      "percent": 4.1
+    },
+    "test": {
+      "images": 82,
+      "instances": 760,
+      "percent": 2.9
+    }
+  },
+  "issues": {
+    "bad_label_line": [
+      "train/004720_jpg.rf.afc486560a4004c7cfd67910af31a29c.txt line 25: duplicate box",
+      "train/construction-813-_jpg.rf.b085952261fd98f2e76b8065de149b5f.txt line 4: duplicate box"
+    ],
+    "empty_label (background image)": [
+      "train/construction-1-_mp4-115_jpg.rf.7afe87b728c11bfa2d6616ef75081e4c.jpg",
+      "train/construction-4-_mp4-19_jpg.rf.b39073990b499b99dfe415a49fdb90bb.jpg",
+      "train/construction-5-_mp4-30_jpg.rf.f671ac8915234f2ca8b9246d095055e9.jpg",
+      "train/construction-821-_jpg.rf.098b834846b3be5f1b24ef6dbc3a30a4.jpg",
+      "train/youtube-196_jpg.rf.d9d5913fb05f3dfcc17d19e54e9ecbf6.jpg",
+      "train/youtube-197_jpg.rf.84e48afd1eb2f504aecfb6456a196950.jpg",
+      "val/airport_inside_0115_jpg.rf.8277ce4e71886a343bfdb10ce7fb6d4a.jpg",
+      "val/casino_0448_jpg.rf.090df4137a5926092c541ee5c6918868.jpg",
+      "val/hospital-corridor_jpg.rf.bbac7f39a08bac2b0363ee9682bd86b2.jpg",
+      "val/shakespearebookshop_jpg.rf.9a14dbfdd07d9a0cc916cffef0194245.jpg",
+      "val/youtube-232_jpg.rf.f92f310106a11e01495ce8bfae0f9b5a.jpg",
+      "val/youtube-446_jpg.rf.b9d9b80538b79252761946ece0bc6317.jpg",
+      "val/youtube-476_jpg.rf.3744f21a7b74ea642bbcbc8251659001.jpg",
+      "val/youtube-51_jpg.rf.083f4487f9a468d9ff42aa13953f377a.jpg",
+      "val/youtube-540_jpg.rf.b229e14d526db6e53965f59e6146cf15.jpg",
+      "val/youtube-804_jpg.rf.c4250b3c54e1cca8d58622970882f60a.jpg",
+      "test/3e7e40981ddd4cdb055c7ffe4c2af5d8_jpg.rf.bac50dc18195e9aeb6f3a21782a3efcb.jpg",
+      "test/Bookstore_More_Merchandise_jpg.rf.7ab5add3e28ced74f9b316e794cc04d2.jpg",
+      "test/Inside-merge_mov-58_jpg.rf.50147e19cb655e74c2df0047113e82b2.jpg",
+      "test/bookstore_44_08_flickr_jpg.rf.244b6f308c529933af798c4063e58601.jpg",
+      "test/librairie_51_jpg.rf.56b0500ae2ad3820b4286133b627e59c.jpg",
+      "test/youtube-253_jpg.rf.5ad0a2d701e20141940508b809584856.jpg",
+      "test/youtube-496_jpg.rf.def4e9964e9a354d0a02f4ac14334a73.jpg",
+      "test/youtube-671_jpg.rf.7b08643d6754cabe6caf2b49a963de47.jpg"
+    ],
+    "duplicate_images": [],
+    "duplicates_across_splits (leakage)": []
+  },
+  "fixed": false,
+  "class_counts": {
+    "train": {
+      "Hardhat": 3145,
+      "NO-Mask": 3097,
+      "Person": 9532,
+      "Mask": 1651,
+      "NO-Hardhat": 2317,
+      "NO-Safety Vest": 3962,
+      "Safety Vest": 3033,
+      "machinery": 5245,
+      "Safety Cone": 3366,
+      "vehicle": 1545
+    },
+    "val": {
+      "Hardhat": 79,
+      "Person": 166,
+      "NO-Safety Vest": 106,
+      "NO-Mask": 74,
+      "Safety Vest": 41,
+      "NO-Hardhat": 69,
+      "Mask": 21,
+      "Safety Cone": 44,
+      "machinery": 55,
+      "vehicle": 42
+    },
+    "test": {
+      "Hardhat": 110,
+      "NO-Mask": 79,
+      "NO-Safety Vest": 90,
+      "Person": 174,
+      "Safety Cone": 92,
+      "vehicle": 41,
+      "NO-Hardhat": 41,
+      "Safety Vest": 61,
+      "machinery": 44,
+      "Mask": 28
+    }
+  },
+  "summary": {
+    "bad_label_line": 2,
+    "empty_label (background image)": 24,
+    "duplicate_images": 0,
+    "duplicates_across_splits (leakage)": 0
+  }
+}
